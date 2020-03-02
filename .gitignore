@@ -1,0 +1,4 @@
+core/.env
+core/node_modules
+web/node_modules
+web/dist

@@ -1,0 +1,16 @@
+{
+  "presets": ["@babel/env"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@src": "./src",
+          "@utils": "./src/utils",
+          "@models": "./src/models",
+          "@graphql": "./src/graphql"
+        }
+      }
+    ]
+  ]
+}
